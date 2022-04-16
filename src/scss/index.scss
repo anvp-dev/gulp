@@ -1,0 +1,47 @@
+$containerWidth: 1200;
+$containerPadding: 15;
+
+$bright: #fff;
+$dark: #000;
+$text: #212121;
+$title: #212121;
+$primary: #ff9900;
+$accent: #239fbe;
+$danger: #f1260c;
+$warning: #ffd601;
+$succes: #28aa28;
+$bg: #f1f1f1;
+$link: #000;
+$focus: #34f1ff;
+$hover: #34f1ff;
+$visited: #791fe0;
+
+:root {
+    --color-bright: #fff;
+    --color-dark: #000;
+    --color-text: #212121;
+    --color-title: #212121;
+    --color-primary: #ff9900;
+    --color-accent: #239fbe;
+    --color-danger: #f1260c;
+    --color-warning: #ffd601;
+    --color-succes: #28aa28;
+    --color-bg: #f1f1f1;
+    --color-link: #000;
+    --color-focus: #34f1ff;
+    --color-hover: #34f1ff;
+    --color-visited: #791fe0;
+}
+
+html,
+body {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body {
+    background-color: var(--color-bright);
+    color: var(--color-text);
+}
+
+@include container($containerWidth, $containerPadding);
